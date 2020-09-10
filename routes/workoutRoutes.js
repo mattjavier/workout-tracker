@@ -14,6 +14,7 @@ router.get('/workouts/range', (req, res) => {
     .catch(err => console.log(err))
 })
 
+// POST new workout
 router.post('/workouts', (req, res) => {
   Workout.create(req.body)
     .then(workout => res.json(workout))
