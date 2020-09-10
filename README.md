@@ -6,7 +6,7 @@ The application was built using Mongoose and Express, along with HTML, CSS, and 
 
 ## Usage 
 
-View the application [here]().
+This application is deployed using Heroku, you can view the application [here](https://stormy-sands-79386.herokuapp.com/).
 
 ## Testing
 
@@ -21,16 +21,25 @@ Start the server by running
 node server.js
 ```
 
+Go into your browser and type the following
+> localhost:3000/
+
+This will direct you to the homepage of the app. Make sure you have setup a Mongo database called `workouts` in order to store the workout information.
+
 ## Images
+
+* The start of the application with no workouts tracked
+
+<img src="./images/start.png" width="600">
 
 * The start of the application with the last workout displayed
 
-<img src="" width="400">
+<img src="./images/start2.png" width="600">
 
 * Adding a workout
 
-<img src="" width="400">
+<img src="./images/add.png" width="600">
 
 * Viewing the stats of your previous exercises
 
-<img src="" width="400">
+<img src="./images/stats.png" width="600">
